@@ -1,0 +1,137 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#a9a6a6</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+  <!--edit background image here-->
+    <style name="backgroundImage">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@drawable/proguard_rules</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <!--edit main relative layout here-->
+    <style name="mainRelaiveLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <!--edit 2nd main layout here-->
+    <style name="mainRelaiveLayout2nd">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_below">@id/new_game</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:padding">2dp</item>
+    </style>
+
+    <!--edit player 1 points layout herer-->
+    <style name="player1mainlayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:padding">2dp</item>
+    </style>
+
+    <style name="scrollView_Style">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:padding">2dp</item>
+    </style>
+
+    <!--edit player 2 points layout herer-->
+    <style name="player2mainlayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:padding">2dp</item>
+    </style>
+
+    <!--edit all other players layouts here -->
+    <style name="allplayermainlayout2nd">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:padding">2dp</item>
+    </style>
+
+    <style name="allplayermainlayout3rd">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:padding">2dp</item>
+    </style>
+
+    <!--new game button -->
+    <style name="newGameButto">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:padding">2dp</item>
+    </style>
+
+    <!--players name and score-->
+    <style name="playername_text">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">1dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/whiteBall</item>
+        <item name="android:textColorHint">@color/whiteBall</item>
+        <item name="android:backgroundTint">@android:color/transparent</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="playerscore_text">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textColor">@color/redBall</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColorHint">@color/redBall</item>
+    </style>
+
+    <!--the buttons-->
+    <style name="allButtons_xml">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:background">@drawable/round_buttons</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">9sp</item>
+    </style>
+
+    <style name="textStyle_score_foul">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/whiteBall</item>
+        <item name="android:padding">2dp</item>
+    </style>
+
+</resources>

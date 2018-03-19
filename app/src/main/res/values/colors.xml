@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+   <!--balls colors-->
+    <color name="whiteBall">#fff</color>
+    <color name="redBall">#ee0000</color>
+    <color name="yellowBall">#fff100</color>
+    <color name="greenBall">#bada55</color>
+    <color name="browneBall">#672f1b</color>
+    <color name="blueBall">#000080</color>
+    <color name="pinkBall">#ffc0cb</color>
+    <color name="BlackBall">#000000</color>
+</resources>

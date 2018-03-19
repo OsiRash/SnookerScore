@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/mainRelaiveLayout"
+    android:clickable="true"
+    android:focusableInTouchMode="true"
+    tools:context="com.example.oaamarasheed.snookerscore.MainActivity">
+
+    <ImageView style="@style/backgroundImage" />
+
+    <Button
+        android:id="@+id/new_game"
+        style="@style/newGameButto"
+        android:onClick="rest"
+        android:text="@string/newGameButton" />
+
+    <!--main infos-->
+    <LinearLayout style="@style/mainRelaiveLayout2nd">
+
+        <!--player 1 layouts-->
+        <LinearLayout style="@style/player1mainlayout">
+
+            <LinearLayout style="@style/allplayermainlayout2nd">
+
+                <EditText
+                    android:id="@+id/player_one"
+                    style="@style/playername_text"
+                    android:hint="@string/player1_name" />
+
+                <TextView
+                    android:id="@+id/player_one_points"
+                    style="@style/playerscore_text"
+                    android:hint="@string/playerscore" />
+
+            </LinearLayout>
+            <!--scores and fould for player 1-->
+            <ScrollView style="@style/scrollView_Style">
+
+                <LinearLayout style="@style/allplayermainlayout2nd">
+
+                    <!--scores player 1-->
+                    <LinearLayout style="@style/allplayermainlayout3rd">
+
+                        <TextView
+                            style="@style/textStyle_score_foul"
+                            android:text="@string/score" />
+
+                        <Button
+                            style="@style/allButtons_xml"
+                            android:backgroundTint="@color/redBall"
+                            android:onClick="addOnePlayerOne"
+                            android:text="@string/one_point" />
+
+                        <Button
+                            style="@style/allButtons_xml"
+                            android:backgroundTint="@color/yellowBall"
+                            android:onClick="addTowPlayerOne"
+                            android:text="@string/two_point" />
+
+                        <Button
+                            style="@style/allButtons_xml"
+                            android:backgroundTint="@color/greenBall"
+                            android:onClick="addThreePlayerOne"
+                            android:text="@string/three_point" />
+
+                        <Button
+                            style="@style/allButtons_xml"
+                            android:backgroundTint="@color/browneBall"
+                            android:onClick="addFourPlayerOne"
+                            android:text="@string/four_point"
+                            android:textColor="@color/whiteBall" />
+
+                        <Button
+                            style="@style/allButtons_xml"
+                            android:backgroundTint="@color/blueBall"
+                            android:onClick="addFivePlayerOne"
+                            android:text="@string/five_point"
+                            android:textColor="@color/whiteBall" />
+
+                        <Button
+                            style="@style/allButtons_xml"
+                            android:backgroundTint="@color/pinkBall"
+                            android:onClick="addSixPlayerOne"
+                            android:text="@string/six_point" />
+
+                        <Button
+                            style="@style/allButtons_xml"
+                            android:backgroundTint="@color/BlackBall"
+                            android:onClick="addSevenPlayerOne"
+                            android:text="@string/seven_point"
+                            android:textColor="@color/whiteBall" />
+
+                    </LinearLayout>
+                    <!-- Fouls player1-->
+                    <LinearLayout style="@style/allplayermainlayout3rd">
+
+                        <TextView
+                            style="@style/textStyle_score_foul"
+                            android:text="@string/foul" />
+
+                        <Button
+                            style="@style/allButtons_xml"
+                            android:backgroundTint="@color/whiteBall"
+                            android:onClick="addFourPlayerTow"
+                            android:text="@string/four_point" />
+
+                        <Button
+                            style="@style/allButtons_xml"
+                            android:backgroundTint="@color/blueBall"
+                            android:onClick="addFivePlayerTow"
+                            android:text="@string/five_point"
+                            android:textColor="@color/whiteBall" />
+
+                        <Button
+                            style="@style/allButtons_xml"
+                            android:backgroundTint="@color/pinkBall"
+                            android:onClick="addSixPlayerTow"
+                            android:text="@string/six_point" />
+
+                        <Button
+                            style="@style/allButtons_xml"
+                            android:backgroundTint="@color/BlackBall"
+                            android:onClick="addSevenPlayerTow"
+                            android:text="@string/seven_point"
+                            android:textColor="@color/whiteBall" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </ScrollView>
+
+        </LinearLayout>
+
+        <!--player2 layouts-->
+        <LinearLayout style="@style/player2mainlayout">
+
+            <LinearLayout style="@style/allplayermainlayout2nd">
+
+                <EditText
+                    android:id="@+id/player_tow"
+                    style="@style/playername_text"
+                    android:hint="@string/player2_name" />
+
+                <TextView
+                    android:id="@+id/player_tow_points"
+                    style="@style/playerscore_text"
+                    android:hint="@string/playerscore" />
+            </LinearLayout>
+
+            <!--scores and fould fr player 2-->
+            <ScrollView style="@style/scrollView_Style">
+
+                <LinearLayout style="@style/allplayermainlayout2nd">
+
+                    <!--scores player 2-->
+                    <LinearLayout style="@style/allplayermainlayout3rd">
+
+                        <TextView
+                            style="@style/textStyle_score_foul"
+                            android:text="@string/score" />
+
+                        <Button
+                            style="@style/allButtons_xml"
+                            android:backgroundTint="@color/redBall"
+                            android:onClick="addOnePlayerTow"
+                            android:text="@string/one_point" />
+
+                        <Button
+                            style="@style/allButtons_xml"
+                            android:backgroundTint="@color/yellowBall"
+                            android:onClick="addTowPlayerTow"
+                            android:text="@string/two_point" />
+
+                        <Button
+                            style="@style/allButtons_xml"
+                            android:backgroundTint="@color/greenBall"
+                            android:onClick="addThreePlayerTow"
+                            android:text="@string/three_point" />
+
+                        <Button
+                            style="@style/allButtons_xml"
+                            android:backgroundTint="@color/browneBall"
+                            android:onClick="addFourPlayerTow"
+                            android:text="@string/four_point"
+                            android:textColor="@color/whiteBall" />
+
+                        <Button
+                            style="@style/allButtons_xml"
+                            android:backgroundTint="@color/blueBall"
+                            android:onClick="addFivePlayerTow"
+                            android:text="@string/five_point"
+                            android:textColor="@color/whiteBall" />
+
+                        <Button
+                            style="@style/allButtons_xml"
+                            android:backgroundTint="@color/pinkBall"
+                            android:onClick="addSixPlayerTow"
+                            android:text="@string/six_point" />
+
+                        <Button
+                            style="@style/allButtons_xml"
+                            android:backgroundTint="@color/BlackBall"
+                            android:onClick="addSevenPlayerTow"
+                            android:text="@string/seven_point"
+                            android:textColor="@color/whiteBall" />
+
+                    </LinearLayout>
+                    <!-- Fouls player 2-->
+                    <LinearLayout style="@style/allplayermainlayout3rd">
+
+                        <TextView
+                            style="@style/textStyle_score_foul"
+                            android:text="@string/foul" />
+
+                        <Button
+                            style="@style/allButtons_xml"
+                            android:backgroundTint="@color/whiteBall"
+                            android:onClick="addFourPlayerOne"
+                            android:text="@string/four_point" />
+
+                        <Button
+                            style="@style/allButtons_xml"
+                            android:backgroundTint="@color/blueBall"
+                            android:onClick="addFivePlayerOne"
+                            android:text="@string/five_point"
+                            android:textColor="@color/whiteBall" />
+
+                        <Button
+                            style="@style/allButtons_xml"
+                            android:backgroundTint="@color/pinkBall"
+                            android:onClick="addSixPlayerOne"
+                            android:text="@string/six_point" />
+
+                        <Button
+                            style="@style/allButtons_xml"
+                            android:backgroundTint="@color/BlackBall"
+                            android:onClick="addSevenPlayerOne"
+                            android:text="@string/seven_point"
+                            android:textColor="@color/whiteBall" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

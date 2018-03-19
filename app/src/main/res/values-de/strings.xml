@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Snooker Ergebnis</string>
+    <string name="five_point">5 Punkte</string>
+    <string name="foul">Foul</string>
+    <string name="four_point">4 Punkte</string>
+    <string name="newGameButton">Neu Spiel</string>
+    <string name="one_point">1 Punkt</string>
+    <string name="player1_name">Spieler 1</string>
+    <string name="player2_name">Spieler 2</string>
+    <string name="playerscore">0</string>
+    <string name="score">Ergebnis</string>
+    <string name="seven_point">7 Punkte</string>
+    <string name="six_point">6 Punkte</string>
+    <string name="three_point">3 Punkte</string>
+    <string name="two_point">2 Punkte</string>
+</resources>
